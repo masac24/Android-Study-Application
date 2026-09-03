@@ -1,0 +1,12 @@
+spring.datasource.url=${JDBC_DATABASE_URL}
+spring.datasource.username=${JDBC_DATABASE_USERNAME}
+spring.datasource.password=${JDBC_DATABASE_PASSWORD}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+server.address=0.0.0.0
+server.port=${PORT:8080}
+spring.servlet.multipart.max-file-size=50MB
+spring.servlet.multipart.max-request-size=50MB
+firebase.service-account=${FIREBASE_SERVICE_ACCOUNT_PATH}
